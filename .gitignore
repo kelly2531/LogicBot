@@ -1,13 +1,31 @@
+
+# Dependências
 node_modules/
 backend/node_modules/
+
+# Proteção de chaves e configurações
 .env
 .env.*
 !.env.example
+
+# Logs
 *.log
+
+# Sistema
 .DS_Store
 Thumbs.db
+
+# VS Code
 .vscode/
+.vscode-test/
+
+# Android
 .gradle/
 local.properties
 android/**/build/
 .idea/
+
+# Cache e arquivos temporários
+.cache/
+.npm/
+*.tsbuildinfo
